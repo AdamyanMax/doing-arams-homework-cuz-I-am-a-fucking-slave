@@ -1,0 +1,55 @@
+/* Reset and global styles */
+* {
+    font-family: "Poppins", sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #505F98;
+    --on-white-color: #111b47;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Navigation */
+.main-navigation {
+    position: fixed; /* Make the header fixed */
+    top: 0; /* Position it at the top of the viewport */
+    left: 0; /* Align it to the left edge */
+    width: 100%; /* Span the full width of the viewport */
+    padding: 10px 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--primary-color);
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.main-navigation a {
+    color: var(--primary-color);
+    text-decoration: none;
+    margin-right: 50px;
+    font-size: 18px;
+
+}
+
+.buy-button button {
+    background-color: var(--on-white-color);
+    color: white;
+    border: none;
+    font-size: 18px;
+    padding: 10px 50px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.buy-button button:hover {
+    background-color: var(--primary-color);
+}

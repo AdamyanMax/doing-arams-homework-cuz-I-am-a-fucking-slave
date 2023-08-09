@@ -1,0 +1,60 @@
+/* Introduction Section */
+.intro-section {
+    background-image: url('img/man.svg'); /* Adjust the image URL */
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* Set the height to 100 viewport height */
+    display: flex;
+    justify-content: flex-start; /* Align content to the left */
+    align-items: center;
+    color: white;
+    text-align: left; /* Align text to the left */
+    padding-left: 90px; /* Add left padding */
+}
+
+.content-column h1 {
+    font-size: 48px; /* Increase font size for h1 */
+    font-weight: 500;
+    padding-bottom: 20px;
+    color: var(--on-white-color); /* Use primary color for h1 */
+}
+
+.content-column p {
+    font-size: 24px; /* Increase font size for p */
+    padding-bottom: 40px;
+    max-width: 50%;
+    color: var(--primary-color); /* Use on-white color for p */
+}
+
+.cta-buttons button {
+    font-size: 18px;
+    margin-right: 8px;
+}
+
+
+.primary-btn,
+.secondary-btn {
+    border: none;
+    padding: 10px 35px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out, border-color 0.3s ease-in-out;
+}
+
+.primary-btn {
+    background-color: var(--on-white-color);
+    color: white;
+}
+
+.secondary-btn {
+    border: 2px solid var(--on-white-color);
+    color: var(--on-white-color);
+    background-color: white;
+}
+
+.primary-btn:hover,
+.secondary-btn:hover {
+    background-color: var(--primary-color);
+    color: white;
+    border-color: var(--primary-color);
+}
