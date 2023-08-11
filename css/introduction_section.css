@@ -1,8 +1,8 @@
 /* Introduction Section */
 /*TODO: BG image doesn't show up*/
 .intro-section {
-    background-image: url('img/man.svg'); /* Adjust the image URL */
-    background-size: cover;
+    background-image: url('/img/man.svg'); /* Adjust the image URL */
+    background-size: 100% 100%;
     background-position: center;
     height: 100vh; /* Set the height to 100 viewport height */
     display: flex;
@@ -23,7 +23,7 @@
 .content-column p {
     font-size: 24px; /* Increase font size for p */
     padding-bottom: 40px;
-    max-width: 50%;
+    max-width: 40%;
     color: var(--primary-color); /* Use on-white color for p */
 }
 

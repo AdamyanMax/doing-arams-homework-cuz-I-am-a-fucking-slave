@@ -5,6 +5,7 @@
     padding: 0 90px;
     display: flex; /* Add display flex to center content vertically */
     align-items: center; /* Center vertically */
+    justify-content: center;
 }
 
 .end-column {
